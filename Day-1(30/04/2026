@@ -48,3 +48,25 @@ int main() {
 
     return 0;
 }
+
+
+//Swapping of two variables 
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a, b;
+
+    cin >> a >> b;
+
+    // Logic to swap values
+    int temp = a;
+    a = b;
+    b = temp;
+
+    // Printing the values
+    cout << a << "\n" << b << endl;
+
+    return 0;
+}
